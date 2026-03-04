@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                     AdSetQDAAdapter 是一个专业的广告聚合SDK，提供高效的广告展示和收益优化功能。
                     DESC
-  s.homepage     = "https://github.com/OSETSDK/AdSetQDGDTAdapter"
+  s.homepage     = "https://github.com/OSETSDK/OSETGDTAdapter"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { 'shenshi' => 'yaohaofei@shenshiads.com' }
   
@@ -14,13 +14,13 @@ Pod::Spec.new do |s|
   
   # 源文件配置
   s.source       = {
-    :git => 'https://github.com/OSETSDK/AdSetQDGDTAdapter.git',
+    :git => 'https://github.com/OSETSDK/OSETGDTAdapter.git',
     :tag => s.version.to_s
   }
   
   # 主框架文件
-  # 检查 AdSetQDGDTAdapter.podspec 关键字段
-  s.vendored_frameworks = 'AdSetQDGDTAdapter.xcframework'
+  # 检查 OSETGDTAdapter.podspec 关键字段
+  s.vendored_frameworks = 'OSETGDTAdapter.xcframework'
   
   # 系统框架依赖
   s.frameworks = "Foundation", "UIKit"
