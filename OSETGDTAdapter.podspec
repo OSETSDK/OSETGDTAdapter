@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "OSETGDTAdapter"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "AdSet广告对接适配器类"
   s.description  = <<-DESC
                     AdSetQDAAdapter 是一个专业的广告聚合SDK，提供高效的广告展示和收益优化功能。
@@ -31,6 +31,6 @@ Pod::Spec.new do |s|
   
   # ================= 第三方依赖库 =================
 
-  s.dependency 'OSETCoreSDK','>=6.6.4.5'
+  s.dependency 'OSETCoreAd'
   s.dependency 'GDTMobSDK'
 end
